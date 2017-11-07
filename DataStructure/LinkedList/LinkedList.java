@@ -11,23 +11,23 @@ public class LinkedList<T> {
 		if (null == head) {
 			head = newNode;
 		} else {
-            Node<T> tail = head;
+			Node<T> tail = head;
 			while(tail.next != null) {
-                tail = tail.next;
-            }
-            tail.next = newNode;
+				tail = tail.next;
+			}
+			tail.next = newNode;
 		}
 	}
 
 	public void display() {
-        Node<T> node = head;
-        int i = 0;
-        while (node != null) {
-            System.out.print(String.format("(%d=%d)->", i++, node.item));
-            node = node.next;
-        }
-        System.out.println();
-    }
+		Node<T> node = head;
+		int i = 0;
+		while (node != null) {
+			System.out.print(String.format("(%d=%d)->", i++, node.item));
+			node = node.next;
+		}
+		System.out.println();
+	}
 
     /**
      * 循环的方式倒置
@@ -37,9 +37,9 @@ public class LinkedList<T> {
         Node reve = null;
         while (curr != null) {
             Node temp = curr;
-            curr = curr.next;
-            temp.next = reve;
-            reve = temp;
+						curr = curr.next;
+						temp.next = reve;
+						reve = temp;
         }
         head = reve;
     }
@@ -59,7 +59,7 @@ public class LinkedList<T> {
     }
 
 	public static void main(String[] args) {
-		LinkedList<Integer> linkedList = new LinkedList<>();
+    LinkedList<Integer> linkedList = new LinkedList<>();
 		linkedList.add(1);
 		linkedList.add(3);
 		linkedList.add(7);
