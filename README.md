@@ -36,7 +36,7 @@
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](./LeetCode/stack/_20/Solution.java)|Easy|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/) | [Java](./LeetCode/stack/_71/Solution.java)|Medium|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Java](./LeetCode/stack/_150/Solution.java)|Medium|
-|341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Java](./LeetCode/stack/_341/Solution.java)|Medium|
+|341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Java](./LeetCode/stack/_341/NestedIterator.java)|Medium|
 
 * 优先队列 - PriorityQueue
 
@@ -49,7 +49,7 @@
 
 | No | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](./LeetCode/tree/_101/Solution.java)|Easy|
+|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java 遍历](./LeetCode/tree/_101/Solution_Iteration.java),[Java 递归](./LeetCode/tree/_101/Solution_Recursion.java) |Easy|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](./LeetCode/tree/_102/Solution.java)|Medium|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Java](./LeetCode/tree/_108/Solution.java)|Easy|
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](./LeetCode/tree/_110/Solution.java)|Easy|
