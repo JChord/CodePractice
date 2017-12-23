@@ -68,15 +68,15 @@
 
 | No | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Java](./LeetCode/recursion/_17/Solution.java)|Medium|
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Java 遍历](./LeetCode/recursion/_17/Solution_Iteration.java),[Java 递归](./LeetCode/recursion/_17/Solution_Recursion.java)|Medium|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | |Hard|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/) | |Medium|
-|46|[Permutations](https://leetcode.com/problems/permutations/) | |Medium|
-|47|[Permutations II](https://leetcode.com/problems/permutations-ii/) | |Medium|
+|46|[Permutations](https://leetcode.com/problems/permutations/) |[Java](./LeetCode/recursion/_46/Solution.java)|Medium|
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/) |[Java](./LeetCode/recursion/_47/Solution.java)|Medium|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/) | |Hard|
-|77|[Combinations](https://leetcode.com/problems/combinations/) | |Medium|
-|79|[Word Search](https://leetcode.com/problems/word-search/) | |Medium|
-|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | |Medium|
+|77|[Combinations](https://leetcode.com/problems/combinations/) |[Java](./LeetCode/recursion/_77/Solution.java)|Medium|
+|79|[Word Search](https://leetcode.com/problems/word-search/) |[Java](./LeetCode/recursion/_79/Solution.java)|Medium|
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) |[Java](./LeetCode/recursion/_200/Solution.java)|Medium|
 
 * 动态规划 - Dynamic programming
 
