@@ -16,7 +16,6 @@ public class Solution {
 			} else {
 				freq[s.charAt(l++)] --;
 			}
-            
             result = Math.max(result, r-l+1);
 		}
 		return result;
