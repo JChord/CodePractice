@@ -4,7 +4,7 @@
  */
 public class LinkedList<T> {
 
-	private Node<T> head = null;
+        private Node<T> head = null;
 
 	public void add(T newItem) {
 		Node newNode = new Node(newItem);
@@ -58,24 +58,24 @@ public class LinkedList<T> {
         return tail;
     }
 
-	public static void main(String[] args) {
-    LinkedList<Integer> linkedList = new LinkedList<>();
-		linkedList.add(1);
-		linkedList.add(3);
-		linkedList.add(7);
-    linkedList.add(6);
+    public static void main(String[] args) {
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        linkedList.add(1);
+        linkedList.add(3);
+        linkedList.add(7);
+        linkedList.add(6);
 
-    System.out.println("添加元素后");
-    linkedList.display();
+        System.out.println("添加元素后");
+        linkedList.display();
 
-    System.out.println("循环方式倒置后");
-    linkedList.reverse();
-    linkedList.display();
+        System.out.println("循环方式倒置后");
+        linkedList.reverse();
+        linkedList.display();
 
-    System.out.println("递归方式倒置后");
-    linkedList.head = linkedList.reverse(linkedList.head);
-    linkedList.display();
-	}
+        System.out.println("递归方式倒置后");
+        linkedList.head = linkedList.reverse(linkedList.head);
+        linkedList.display();
+    }
 }
 
 class Node<T> {
