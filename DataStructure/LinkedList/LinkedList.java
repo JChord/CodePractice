@@ -37,9 +37,9 @@ public class LinkedList<T> {
         Node reve = null;
         while (curr != null) {
             Node temp = curr;
-						curr = curr.next;
-						temp.next = reve;
-						reve = temp;
+            curr = curr.next;
+            temp.next = reve;
+            reve = temp;
         }
         head = reve;
     }
